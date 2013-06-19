@@ -39,7 +39,7 @@ line_on = gets.chomp.upcase
       puts "stop(5): 1st"
       stop_on = gets.chomp
 
-    when "N"
+    when "6"
       puts "Which stop are you getting on?"
       puts "stop(1): Grand Central"
       puts "stop(2): 33rd"
@@ -51,11 +51,9 @@ line_on = gets.chomp.upcase
     else puts "Invalid input"
     end
 
-
     puts "What train would you like to get off:"
     puts "Line (L), line (N) or line (6) ?"
     line_off = gets.chomp.upcase
-  end
 
   case line_off
   when "L"
@@ -77,7 +75,7 @@ line_on = gets.chomp.upcase
       puts "stop(5): 1st"
       stop_on = gets.chomp
 
-    when "N"
+    when "6"
       puts "Which stop are you getting on?"
       puts "stop(1): Grand Central"
       puts "stop(2): 33rd"
@@ -88,6 +86,6 @@ line_on = gets.chomp.upcase
       stop_on = gets.chomp
     else puts "Invalid input"
   end
-
+end
 
 stops
